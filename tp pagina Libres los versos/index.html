@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Artística</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Libres los versos</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#textos">Textos</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidxs a mi mundo</h2>
+            <p>Soy Nahuel, escribo cuentos, poemas, y también hago música.</p>
+
+            <p>En este espacio encontrarás mis escritos, videos y reseñas de mi trabajo. Espero que disfrutes de mi arte
+                tanto como yo disfruto creándolo.</p>
+        </section>
+
+        <section id="textos">
+            <h2>Textos</h2>
+            <div class="card-container">
+                <article class="card">
+                    <a href="poemas/poema1.html" class="card-link"></a>
+                    <h3>Presentismo</h3>
+                    <p>Escritos breves desde la almohada</p>
+                </article>
+                <article class="card">
+                    <h3>Memoria</h3>
+                    <p>Y la justicia sigue incompleta</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="videos">
+            <h2>Música y Videos</h2>
+            <div class="media">
+                <iframe src="https://www.youtube.com/embed/TU_VIDEO" frameborder="0" allowfullscreen></iframe>
+                <audio controls>
+                    <source src="musica/mi_cancion.mp3" type="audio/mp3">
+                    Tu navegador no soporta el audio.
+                </audio>
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+            <div class="grid-reseñas">
+                <div class="item">“Me gusta su metáfora constante”</div>
+                <div class="item">“Una voz necesaria.”</div>
+                <div class="item">“Sus canciones llegan al alma.”</div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/TU_CODIGO" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Libres Los Versos</p>
+        <p>
+            <a href="https://www.instagram.com/libreslosversos?igsh=M202Z3BoNTdvbHU3 " target="_blank">Instagram</a> |
+            <a href="https://youtube.com/@tu_usuario" target="_blank">YouTube</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
